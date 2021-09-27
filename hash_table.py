@@ -246,8 +246,3 @@ class HashTable:
 
     def __repr__(self) -> str:
         return f"{dict(zip(self.__get_keys(), self.__get_values()))}"
-
-
-table = HashTable()
-table["test_key"] = ["test_value"]
-print(table)
